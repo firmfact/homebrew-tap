@@ -14,25 +14,25 @@ cask "firmfact" do
     end
   end
 
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     on_arm do
-      sha256 "1921b4aa304a2527465e001ad9335859769a9ab4df6bf69dbd42e2263094e05a"
+      sha256 "f5d44c9110d7f2f2a33be34f398caab84ff91edbff8f5d959539e954b4ea7a2c"
       url "https://github.com/firmfact/cli/releases/download/v#{version}/firmfact_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "cfae790eae0e61652af4ad8a0a2f7412cca01dcb406d7f83fbbafd7791f4d1f8"
+      sha256 "5840a5cf0f3973ba8a699123d318868f85931ee199b0bae05f644fd1dea1209a"
       url "https://github.com/firmfact/cli/releases/download/v#{version}/firmfact_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "a7943dd9db44e1640b50a59964aec08bc876db3cdb71cf1c919991ddb2efc25b"
+      sha256 "a8487d0869d8f58eb14904f6b5facfc5f930edecca4b721c5eff11c70c908a15"
       url "https://github.com/firmfact/cli/releases/download/v#{version}/firmfact_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "10af9c10d66c1796b928169b418c55f61235a8a460e15e4e1ed6a7b91b9811f2"
+      sha256 "b81fe6bb81aa8892c04782a9f48d6fcbaf0ec715a2f6ba0ddc9025f2e1acc3cd"
       url "https://github.com/firmfact/cli/releases/download/v#{version}/firmfact_#{version}_linux_amd64.tar.gz"
     end
   end
